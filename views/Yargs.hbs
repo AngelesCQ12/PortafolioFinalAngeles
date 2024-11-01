@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/estiloProyecto.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    
+
+ <div class="contenedor-header">
+             {{>header}}
+        </div>
+       
+
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <br>
+        <br>
+
+    <div class="tituloP">
+        <h2>APLICACION YARGS</h2>
+    </div>
+
+        <div class="definicion">
+            <span>Este proyecto nos muestra el funcionamiento de una aplicacion creada a base de varias app e ir realizando cambios en cada uno de ellos y de generar archivos .txt nos genere archivos con extensión PDF..</span>
+        </div>
+        <div class="galeria">
+
+             
+                <div class="proyecto">
+               <img src="IMG/Yargs1.jpg"  alt="">
+              <div class="descripcion">
+                    <h3>ESTRUCTURACION DE CODIGO</h3>
+                    <p>En esta ventana nos muestra la esctrucura de las carpetas y archivos que conforman la aplicación Yargs.</p>
+                </div>
+            </div>
+        
+             <div class="proyecto">
+                <img src="./IMG/Yargs2.jpg"  alt="">
+               <div class="descripcion">
+                     <h3>CODIGO APP</h3>
+                     <p>En esta ventana nos enseña lo que es el funcionamiento de generar archivos pdf desde el número que deseemos.</p>
+                 </div>
+             </div>
+
+
+
+             <div class="proyecto">
+                <img src="./IMG/Yargs3.jpg"  alt="">
+               <div class="descripcion">
+                     <h3>CODIGO APP</h3>
+                     <p>En esta ventana nos enseña la parte de ejecutarlo dentro de la tarminal y las archivos que nos genera en formato PDF.</p>
+                 </div>
+             </div>
+
+             <div class="proyecto">
+                <img src="IMG/Yargs4.jpg"  alt="">
+                <h3>REPOSITORIO EN GITHUB</h3>
+             <p>Haz clic en el siguiente enlace para direccionarte al repositotio en GitHub.</p>
+             <a href="https://github.com/AngelesCQ12/AplicacionYargs.git" target="_blank">Ver Repositorio</a>
+        </div>  
+
+        <div class="proyecto">
+                <img src="IMG/Yargs4.jpg"  alt="">
+                <h3>EXPLICACION DE FUNCIONAMIENTO</h3>
+             <p>Haz clic en el siguiente enlace para direccionarte a la explicación.</p>
+             <a href="https://drive.google.com/file/d/1V3dF6GDg-y2mbjR9x3Xo3pbIa7gIT9jf/view?usp=drive_link" target="_blank">Ver Página Web.</a>
+        </div>                      
+        </div>
+    </div>
+</section>
+         {{>footer}}
+</body>
+</html>
