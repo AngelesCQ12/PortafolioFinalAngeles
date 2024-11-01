@@ -43,8 +43,8 @@ app.get('/Mru-Mruv', (req, res) => {
     res.render('Sysinfo');
   });
 
-  app.get('/PaginaWeb', (req, res) => {
-    res.render('PaginaWeb');
+  app.get('/Paginaweb', (req, res) => {
+    res.render('Paginaweb');
   });
 
   app.get('/Yargs', (req, res) => {
